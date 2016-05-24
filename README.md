@@ -11,6 +11,7 @@ Passing code exists in this repo for:
 * arrays
 * async
 * bestPractices
+* count
 * objects
 
 The readme of rmurphey's original repo continues below.
