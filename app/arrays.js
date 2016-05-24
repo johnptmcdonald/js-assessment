@@ -13,12 +13,12 @@ exports.arraysAnswers = {
   sum: function(arr) {
     return arr.reduce(function(a,b){
       return a + b;
-    }, 0)
+    }, 0);
   },
 
   remove: function(arr, item) {
     // I assume the original arr should NOT be mutated
-    var copy = arr.slice(0)
+    var copy = arr.slice(0);
     while(copy.indexOf(item) !== -1){
       copy.splice(copy.indexOf(item), 1);
     }
@@ -54,7 +54,7 @@ exports.arraysAnswers = {
   },
 
   concat: function(arr1, arr2) {
-    return arr1.concat(arr2)
+    return arr1.concat(arr2);
   },
 
   insert: function(arr, item, index) {
@@ -86,7 +86,7 @@ exports.arraysAnswers = {
 
     for(var prop in itemCount){
       if(itemCount[prop] > 1){
-        dupes.push(+prop)
+        dupes.push(+prop);
       }
     }
 
@@ -95,8 +95,8 @@ exports.arraysAnswers = {
 
   square: function(arr) {
     return arr.map(function(element){
-      return element*element
-    })
+      return element*element;
+    });
   },
 
   findAllOccurrences: function(arr, target) {
