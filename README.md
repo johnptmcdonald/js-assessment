@@ -2,6 +2,21 @@
 
 # A test-driven JS assessment
 
+-----------------------------
+
+This is a fork of [rmurphey's js-assessment repo](https://github.com/rmurphey/js-assessment). 
+
+Passing code exists in this repo for:
+
+* arrays
+* async
+* bestPractices
+* objects
+
+The readme of rmurphey's original repo continues below.
+
+-----------------------------
+
 This repo includes a set of tests that can be used to assess the skills of
 a candidate for a JavaScript position, or to evaluate and improve one's own
 skills.
