@@ -12,7 +12,15 @@ Passing code exists in this repo for:
 * async
 * bestPractices
 * count
+* flowControl
+* functions
+* logicalOperators
+* modules
+* numbers
 * objects
+* ~~recursion~~
+* ~~regex~~
+* ~~strings~~
 
 The readme of rmurphey's original repo continues below.
 
